@@ -17,6 +17,18 @@ section {
   margin:auto;
 }
 
+/* Minimal Css Required */
+viewport {
+    width: 900px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #111111 ;
+}
+wall {
+    z-index: 1;
+}
 
 .main {
   flex-grow: 1;
