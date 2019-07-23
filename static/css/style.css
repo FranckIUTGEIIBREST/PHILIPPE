@@ -1,4 +1,26 @@
-html, body {
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+  
+  /* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+	/* Un message personnalisé */
+
+	body:before {
+		content: "Version mobile du site";
+		display: block;
+		text-align: center;
+		font-style: italic;
+		color: #777;
+	}
+  
+  
+  html, body {
   height: 100%;
 }
 
