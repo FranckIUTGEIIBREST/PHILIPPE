@@ -99,6 +99,25 @@ section {
   margin:auto;
 }
 
+
+.main_etendu {
+  flex-grow: 1;
+  display: block;
+  width: 100%;
+  margin:auto;
+  text-align: justify;
+}
+
+.main {
+  flex-grow: 1;
+  display: block;
+  width: 75%;
+  margin:auto;
+  text-align: justify;
+}
+
+
+
 .cadre {
  height: auto;
  font-size: 80%;
@@ -113,14 +132,6 @@ section {
   margin: 0px;
   background-color:  rgba(0,0,0,0.4);
   border-radius: 10px 10px 10px 10px;
-}
-
-.main {
-  flex-grow: 1;
-  display: block;
-  width: 75%;
-  margin:auto;
-  text-align: justify;
 }
 
 .header-bar {
@@ -142,9 +153,10 @@ a.header-nav img {
 
 .header-title {
   font-size: 50px;
-  margin-left: 50px;
+  margin-left: 25px;
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
+  width: auto;
 }
 
 
@@ -270,4 +282,12 @@ li.dropdown {
   text-align: justify;
 }
 
-
+#more {display: none;} 
+.transparent_button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
